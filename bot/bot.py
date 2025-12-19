@@ -1,5 +1,5 @@
 import telebot
-from .handlers import MessageHandlers
+from bot.handlers import MessageHandlers
 
 
 class CurrencyBot:
