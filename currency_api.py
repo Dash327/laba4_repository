@@ -1,7 +1,7 @@
 import requests
 import json
 from typing import Dict, Optional
-from config import CBR_CURRENT_URL, CBR_ARCHIVE_URL
+from .config import CBR_CURRENT_URL, CBR_ARCHIVE_URL
 from utils.exceptions import APIError
 
 
