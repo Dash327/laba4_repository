@@ -1,5 +1,5 @@
 import logging
-from currency_api import CurrencyAPI
+from api.currency_api import CurrencyAPI
 from utils.validators import InputValidator
 from utils.exceptions import ValidationError, APIError
 from utils.formatters import format_currency_table, format_conversion
